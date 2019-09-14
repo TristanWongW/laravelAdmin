@@ -1,0 +1,1090 @@
+.bodyBg{
+    background: #f7f7f7;
+    position: relative;
+}
+a{text-decoration: none!important;}
+/*用户注册、登录*/
+.loginImg{
+    width: 100%;
+    z-index: 1;
+}
+.loginBox{
+    position: absolute;
+    background: #fff;
+    left: 5%;
+    width: 90%;
+    padding: 5px;
+    top:130px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 2px #999;
+}
+
+.loginIcon {
+    background: #fff;
+    position: absolute;
+    top: -50px;
+    left: 35%;
+    width: 30%;
+    padding: 10px;
+    border-radius: 80px;
+}
+.loginIcon >img{
+    width: 100%;
+}
+.userLogin{
+    width: 95%;margin: 17% auto;
+}
+.inputBox {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    margin-top: 15px;
+    position: relative;
+    height: 42px;
+}
+.inputBox > span{
+    display: inline-flex;
+    width: 27%;
+    padding-left: 10px;
+    line-height: 40px;
+}
+.inputBox > input{
+    display: inline-flex;
+    width: 70%;
+    left: 30%;
+    border: none;
+    line-height: 40px;
+    height: 40px;
+    color: #666;
+    box-shadow: none;
+}
+.inputBox >a{
+    width: 80px;
+    text-align: center;
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    padding-left: 5px;
+    color: #65a7fd;
+    border-left: 1px solid #aaa;
+    text-decoration: none;
+}
+.rebox{ margin-top: 10px;position: relative}
+.rebox>input {
+    width: 15px;
+    height: 15px;
+    top: -1px;
+    left: 2px;
+    position: absolute;
+}
+.rebox>a {
+    color: #333 !important;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.reBtn {
+    display: block;
+    margin: 35px auto;
+    background: #65a7fd;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.register{
+    font-weight: 600;
+    padding-left: 5px;
+
+}
+.register >a { color: #333!important;}
+/*用户首页*/
+.carousel-indicators{bottom: 0!important;}
+.userNav{
+    position: absolute;
+    top: 10px;
+    width: 60%;
+    left: 20%;
+    z-index: 20;
+}
+.userNav input{
+    border-radius: 20px;
+    border: none;
+}
+.userNav .search{
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 20px!important;
+}
+.userNav  .message{
+    position: absolute;
+    right: -50px;
+    top: 2px;
+}
+.userNav  .message >img{width: 28px;}
+.userNav  .message >span{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #f8773d;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 5px;
+}
+.navMenu{
+    display: inline-flex;
+    flex-wrap: wrap;
+    background: #fff;
+    width: 100%;
+}
+.navMenu > a{
+    margin-top: 5px;
+    width: 24%;
+    padding: 10px;
+    text-align: center;
+}
+.navMenu > a > img{
+    width: 25px;
+}
+.navMenu > a > span{
+    display: block;
+    color: #333;
+    padding-top: 5px;
+    font-size: 1.3rem!important;
+}
+.commodity{
+    background: #fff;
+}
+.commodity > h5{
+    border-left: 8px solid #f77b43;
+    padding: 8px;
+    font-size: 1.4rem;
+    line-height: 30px;
+    border-bottom: 1px solid #eee;
+}
+.commodity > h5 > span{color: #333}
+.commodity > h5 > a{color: #aaa}
+.commodity > h5 > a img{width: 8px;margin-top: -3px;}
+.commodityBox > .sellerTit{
+    font-weight: 600;
+    display: block;
+    color: #444;
+    font-size: 1.7rem;
+    padding-left: 10px;
+    padding-top: 8px;
+    position: relative;
+    margin-bottom: 8px;
+    white-space: nowrap!important;
+    text-overflow: ellipsis!important;
+    overflow: hidden!important;
+}
+.sellerTit >p {
+    width: 70%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.sellerTit >a {
+    color: #bbb;
+    font-size: 1.4rem;
+    font-weight: 500;
+    position: absolute;
+    right: 5px;
+    top: 8px;
+}
+.commodityBox{margin-top: 8px;}
+.commodityBox  .abox {
+    display: inline-block;
+    width: 46%;
+    margin-left: 2.5%;
+    border-radius: 6px;
+    box-shadow:  0 0 2px 2px #eee;
+    margin-bottom: 10px;
+    position: relative;
+}
+.commodityBox  .abox .topRimg{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 20px;
+    z-index: 20;
+}
+.commodityBox  .priceBox{
+    display: flex;
+    justify-content: space-between;
+    padding-right:5px;
+}
+.commodityBox  .priceBox span{
+    vertical-align: bottom;
+    line-height: 12px;
+    margin-bottom: 6px;
+}
+.commodityBox  .priceBox span:nth-child(1){
+    color: #f77b43;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.commodityBox  .priceBox span:nth-child(2){
+    color: #bbb;
+    font-size: 1rem;
+    text-decoration:line-through;
+}
+.commodityBox  .priceBox span:nth-child(3){
+    color: #bbb;
+    font-size: 1rem;
+}
+.commodityBox > a >h4{
+    padding-left: 3px;
+    color: #222;font-weight: 600;font-size: 1.6rem;    white-space: nowrap!important;
+    text-overflow: ellipsis!important;
+    overflow: hidden!important;}
+.commodityBox > a >img{width: 100%}
+.commodityBox > a >.price1{color: #f77b43;}
+.commodityBox > a >.price1 > span{font-weight: 600;font-size: 1.8rem;}
+.commodityBox > a >.price2{color: #999}
+.address {padding: 8px}
+.address >a{color: #999;vertical-align: bottom}
+.address img{width: 16px;margin-right: 5px}
+.magrinBottom{margin-bottom: 100px!important;}
+/**顶部导航**/
+.icon-center{
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin:0px auto;
+}
+.icon-index{
+    background:url("../images/botMenu1-c.png") no-repeat center;
+    background-size: contain;
+}
+.icon-use{
+    background:url("../images/botMenu2-c.png") no-repeat center;
+    background-size: contain;
+}
+.icon-cat{
+    background:url("../images/botMenu3-c.png") no-repeat center;
+    background-size: contain;
+}
+.icon-my{
+    background:url("../images/botMenu4-c.png") no-repeat center;
+    background-size: contain;
+}
+
+.botMenu{
+    z-index: 25;
+    position: fixed;
+    bottom: 0;
+    display: inline-flex;
+    background: #fff;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    box-shadow: 0 0 8px 1px #ccc;
+}
+.botMenu > a{
+    width: 24%;
+    padding: 5px;
+    text-align: center;
+}
+.botMenu > a > span{
+    display: block;
+    font-size: 1.2rem;
+    color: #888;
+    padding-top: 3px;
+}
+.botMenu > a.active span {color: #6aa8fc!important;}
+.botMenu > a.active .icon-index{
+    background: url("../images/botMenu1.png") no-repeat center;
+    background-size: contain;
+}
+.botMenu > a.active .icon-use{
+    background: url("../images/botMenu2.png") no-repeat center;
+    background-size: contain;
+}
+.botMenu > a.active .icon-cat{
+    background: url("../images/botMenu3.png") no-repeat center;
+    background-size: contain;
+}
+.botMenu > a.active .icon-my{
+    background: url("../images/botMenu4.png") no-repeat center;
+    background-size: contain;
+}
+/*.botMenuActive {color: #6aa8fc!important;}*/
+/*客户消息中心*/
+.messageBox{
+    display: block;
+    background: #fff;
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 8px;
+    padding: 6px;
+    position: relative;
+}
+.messageBox > h4{color: #333;font-weight: 600;font-size: 1.5rem}
+.messageBox > span{color: #999;}
+.time{
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+/*商品分类*/
+.classifyMenu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    background: #fff;
+}
+.classifyMenu > span{
+    display: block;
+    text-align: center;
+    padding: 12px 8px;
+}
+.classifyMenu > .menuActive{
+    color: #65a7fd;
+    border-left: 5px solid #65a7fd;
+    background: #f7f7f7;
+}
+.classifyBox {margin-left: 105px;margin-bottom: 70px}
+.classifyBox> a {
+    display: inline-block;
+    color: #333;
+    width: 45%;
+    margin-left: 2.5%;
+    text-align: center;
+    margin-top: 10px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 4px;
+}
+.classifyBox> a>img{width: 100%;border-radius: 4px;}
+/*商品、商户详情*/
+.productBox{background: #fff;padding: 5px 15px;margin-top: 10px;}
+.productBox > h4{font-weight: 600;font-size: 1.6rem}
+.productBox > h4 >img{height: 15px;margin-left: 5px;margin-top: -5px}
+.productBox > h5{font-weight: 600;font-size: 1.4rem}
+.productBox > div{color: #999}
+.productColor{color: #f77b43!important;font-weight:600;font-size: 1.4rem}
+.productNumber{margin-top: 25px;position: relative}
+.productNumber > span{
+    border: 1px solid #aaa;
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+    margin-left: -1px;
+}
+.productNumber > span:nth-child(2){width: 40px!important;}
+.productNumber >.btnBox {
+    background: #65a7fd;
+    color: #fff;
+    position: absolute;
+    right: 5px;
+    top: -5px;
+    border-radius: 4px;
+    padding: 5px 15px;
+}
+/*我的订单*/
+.usedNav {
+    display: inline-flex;
+    background: #fff;
+    width: 100%;
+    padding-top: 6px ;
+}
+.usedNav >span {
+    text-align: center;
+    font-size: 1.5rem;
+    padding:5px 9px;
+}
+.usedNav > .active{
+    color: #65a7fd;
+    border-bottom: 2px solid #65a7fd;
+} .search {
+    background: #fff;
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+}
+ .search > div{
+    float: left;
+    margin-left: 3%;
+    width: 33.5%;
+    position: relative;
+}
+ .search > div:nth-child(3){width: 20%;}
+ .search > div >input{
+    border-radius: 4px;
+    background: #EDFFF9;
+    border: 1px solid #eee;
+    padding: 3px;
+    height: 25px;
+}
+ .search > div > .btnCla {
+    color: #fff;
+    background: #65a7fd;
+    padding: 2px;
+    border-radius: 4px;
+}
+.navTopBox{position: fixed;top:0;left: 0;width: 100%;z-index: 200;box-shadow: 1px 1px 8px 1px #eee}
+.usedBox{margin-bottom: 50px;}
+.usedList{
+    display: block;
+    position: relative;
+    background: #fff;
+    margin-top: 10px;
+    padding: 5px 15px;
+}
+.usedList > .sellerT{
+    border-bottom: 1px solid #eee;
+    font-size: 1.5rem;
+    padding-top: 5px;
+    margin-bottom: 10px;
+
+}
+.usedList > .sellerT p{
+    line-height: 10px;  width: 80%;padding:2px;
+    white-space: nowrap!important;
+    text-overflow: ellipsis!important;
+    overflow: hidden!important;}
+.usedList > .sellerT p:nth-child(2){color: #aaa;font-size: 1.2rem;}
+.usedList > .sellerT > img{width: 10px}
+.usedList .priceYH{
+   color: #666;
+    font-size: 1.2rem;
+}
+.usedList  .priceAll{
+    text-align: right;
+    padding-right: 10px;
+    border-bottom: 1px dashed  #eee;
+    margin-bottom: 4px;
+}
+.usedList .usedContent{
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    display: inline-flex;
+    width: 100%;
+}
+
+.usedList .usedContent > div > h5{font-size: 1.6rem}
+.usedList .usedContent > div:nth-child(1){width: 100%}
+.usedList .usedContent > div > img{width: 100%}
+.usedList .usedContent > div:nth-child(2){margin-left: 4%;text-align: left;margin-top: -13px;}
+.usedList .usedContent > div:nth-child(2) > h5{
+    line-height: 23px;
+    -webkit-line-clamp:2;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    text-overflow: ellipsis;
+    overflow: hidden!important;
+}
+.priceColor{ color: #f77b43; }
+.usedList .btnBox{
+    text-align: right;
+    padding: 4px;
+}
+.usedList .btnBox > span{
+    min-width: 100px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 8px;
+    border-radius: 2px;
+}
+.colorUsed{
+    color: #fff;
+    background: #f77b43;
+}
+.userOrder .usedList .status{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    z-index: 22;
+}
+.userOrder .usedBox{margin-top: 0;}
+.userOrder .btnBox{
+    text-align: right;
+    padding: 12px;
+    background: #fff;
+    width: 100%;
+}
+.userOrder .btnBox > span{
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 8px;
+    border-radius: 2px;
+}
+.detailsOrder {padding-bottom: 0!important;padding-top: 5px}
+.usedList .status img{width: 20px;}
+.usedList .used{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(100,100,100,.3);
+    text-align: right;
+    z-index: 20;
+}
+.usedList .used img{
+    width: 80px;
+    margin-top: 3%;
+    margin-right: 15%;
+}
+.colorDrawback{
+    color: #fff;
+    background: #d0d0d0;
+}
+.colorPurchase{
+    color: #fff;
+    background: #65a7fd;
+}
+.colorA4{color: #A4A4A4}
+.colorF7{color: #f77b43!important;}
+.erm{
+    padding: 15px;
+    position: fixed!important;
+    width: 180px!important;
+    height: 200px!important;
+    left: 20%!important;
+    top: 25%!important;
+    text-align: center;
+    border-radius: 16px!important;
+}
+.userOrder >.reBtn{width: 70%;margin: 30px auto}
+/*个人中心*/
+.perNav {
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    width: 90%;
+}
+.perNav >img{width: 60px;border-radius: 40px;}
+.perNav >span{padding-left: 10px;color: #fff;font-size: 1.6rem}
+.perNews{
+    border-radius: 10px;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+    background: url("../images/perBg2.png");
+    background-size: 100%;
+}
+
+.perNews > div{text-align: center;width: 32%;padding: 5px;font-size: 1.3rem}
+.perNews > div >span{display: block;line-height: 25px;}
+.perNews > div >.colorF7{font-size:1.6rem}
+.perNavImg {margin-bottom: 10px}
+.perlist{background: #fff;margin-top: 10px}
+.perlist > a {
+    color: #333;
+    vertical-align: middle;
+    display: block;
+    border-bottom: 1px solid #eee;
+    padding: 8px;
+}
+.perlist > a > span{padding-left: 15px;line-height: 35px;font-size: 1.3rem;}
+.perlist > a > img:nth-child(1){width: 18px}
+.perlist > a > img:nth-child(3){width: 10px;padding-top: 5px}
+.withdraw{
+    background: #fff;margin-top: 10px;
+    text-align: center;
+    padding: 8px;
+    display: block;
+    line-height: 35px;
+    color: #222;
+    box-shadow: 0 0 6px 0 #eee;
+}
+/*用户等级规则*/
+.perNav > .perName{
+    position: absolute;left: 80px;
+    top: 20px;
+}
+.perNav > .perName > span{display: block;color: #fff;font-size: 1.6rem}
+.perBox {
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 20px;
+    background-size: 100%;
+    padding: 5px;
+}
+.perBox > h4{font-size: 1.6rem;padding-left: 10px}
+.perBox > div{padding-left: 25px}
+
+/*成长明细*/
+.userGrowUp .messageBox .time{font-size: 2rem;top: 20px;right: 30px;font-weight: 600}
+/*商家申请*/
+.application .messageBox .time{top: 30px;right: 15px;}
+.application .reBtn{width: 80%}
+.application > .messageBox {color: #333!important;}
+.application > .messageBox>div {line-height: 25px;}
+.color65{color: #65a7fd!important;}
+/*商户申请表格*/
+.merchant > .loginBox{
+    top: 0;
+    width: 100%;
+    left: 0;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: none;
+}
+.merchant > .loginBox .inputBox {
+    border: none;
+    border-bottom: 1px solid #eee;
+    height: auto !important;
+    margin-top: 5px !important;
+    margin-bottom: 8px!important;
+}
+.merchant > .loginBox .inputBox >input{box-shadow: none}
+.merchant > .loginBox>.userLogin{margin-top: 0;}
+.searchDiv {
+    background: #fff!important;
+    z-index: 13;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+
+}
+.searchDivContent {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 13;
+    text-align: left;
+}
+.searchDivContent > h4{
+    position: absolute;
+    top:0;
+    left: 10px;
+}
+.closed > img{width: 20px!important;}
+.searchDivContent > .typeBox  { display: flex; flex-wrap:wrap;}
+.searchDivContent > .typeBox >div {
+    text-align: center;
+    width: 33.3%;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 15px 5px;
+}
+.searchDivContent > .typeBox >div >img{width: 30px;}
+.searchDivContent > .typeBox >div >span{display: block;font-size: 1.3rem;padding-top: 8px }
+/*商户首页*/
+.sellerIndex > .userNav {
+    width: 80%;
+    left: 10%;
+    margin-top: 3%;
+}
+.sellerIndex > .loginImg{
+    float: left;
+    z-index: 1;
+}
+.sellerBox{
+    width: 100%;
+    display: inline-flex;
+    color: #fff;
+    z-index: 2;
+}
+.sellerBox > div{width: 49.9%;padding-left: 18px;}
+.sellerBox > div>h4{font-size: 1.6rem}
+.sellerBox > div>div{font-size: 1.2rem}
+.sellerBox2{
+    width: 100%;
+    left: 5%;
+    margin-top: -35%;
+    display: inline-flex;
+    z-index: 2;
+}
+.sellerBox2 > a{
+    text-align: center;
+    background: #fff;
+    border-radius: 6px;
+    display: block;
+    width: 46%;
+    margin-left: 3%;
+    padding: 20px 0;
+    font-size: 1.6rem;
+}
+.sellerBox2 > a >img{width: 30px;}
+.sellerBox2 > a >span{padding-left: 5px}
+.sellerBox3 {margin-top: 20px}
+.searchDivContent{background: none}
+.searchDivContent > .typeBox >a {
+    text-align: center;
+    width: 33.3%;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 15px 5px;
+    background: #fff;
+}
+.searchDivContent > .typeBox >a >img{width: 30px;}
+.searchDivContent > .typeBox >a >span{display: block;font-size: 1.3rem;padding-top: 8px;color: #333; }
+/*密码、手机号修改*/
+.userPhone .userLogin{background: #fff;margin: 0 auto;padding-bottom: 10px}
+.userPhone .userLogin .inputBox {border: none!important;}
+.userPhone .userLogin .inputBox input{box-shadow: none}
+.userPhone .reBtn{width: 80%;margin: 50px  auto;height: 35px;line-height: 35px}
+/*商户订单、退款*/
+.order   .usedBox >a{color: #333}
+.order  .usedList .status{
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    z-index: 22;
+}
+.order  hr{
+    margin-top: -5px!important;
+    margin-bottom: 15px!important;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+/*账号管理*/
+.scrollBox{overflow-y: scroll;height: 100%;}
+.payableBox{margin-top: 30px;}
+.payableList{
+    width: 90%;
+    margin: 15px auto;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px 1px #eee;
+    border: 1px solid #eee;
+    background: #fff;
+    position: relative;
+}
+.payableList >  div{
+    border-top: 1px solid #eee;
+}
+.payableList .leftText{
+    font-size: 1.4rem;
+    padding: 10px;
+}
+.payableList .leftText > div{margin-top: 5px;}
+.payableList .leftText  > div >span,
+.payableList .leftText  > div >textarea,
+.payableList .leftText  > div >input{
+    display: inline-block;
+    vertical-align: top;
+}
+.payableList .leftText > div >span:nth-child(1){width: 80px;color: #777;text-align: right;padding: 5px}
+.payableList .leftText > div >input{width: 65%;color: #333;border-radius: 4px;border: 1px solid #eee;padding: 5px}
+.payableList .leftText > div >input:disabled{background: #fff;border: none;}
+.payableList .leftText > div >textarea{width: 80%;color: #333;padding-left: 5px;min-height: 30px;}
+.payableList .leftText > div >textarea:disabled{background: #fff;border: none;}
+.payableList >  div > a {
+    display: inline-block;
+    text-align: center;
+    width: 30.5%;
+    padding: 8px;
+    color: #ff5219;
+    text-decoration: none;
+}
+.payableList >  div > a:nth-child(1){ border-right: 1px solid #eee;}
+.payableList >  div > a:nth-child(2){ border-right: 1px solid #eee;}
+.userNum{
+    left: 0;
+}
+.doorNumber  .payableList >  div > a {
+    display: inline-block;
+    text-align: center;
+    width: 31%!important;
+    padding: 8px;
+    text-decoration: none;
+    color: #333;
+}
+.doorNumber  .payableList >  div > a:nth-child(3){ border-right: none;}
+.newPayableList{margin: 30px auto; width: 80%}
+/*核销历史*/
+.cancelHis .number{position: absolute;top:45px;right: 10px;}
+.cancelHis .allPrice{position: absolute;top: 80px;right: 10px;font-size: 1.6rem;font-weight: 600}
+/*报表*/
+.reportMenu{display: inline-flex;width: 100%;}
+.reportMenu >div {
+    margin-top: 10px;
+    text-align: center;
+    width: 31.2%;
+    background: #fff;
+    margin-left: 1.8%;
+    padding: 8px;
+}
+.reportMenu >div >div:nth-child(1){font-size: 1.3rem}
+.reportMenu >div >div:nth-child(2){font-size: 1.5rem;margin-top: 10px;font-weight: 600;}
+#main{
+    background: #fff;
+    margin: 20px auto;
+    padding: 8px;
+}
+.tableBox{background: #fff;padding-top:5px;padding-left: 8px;padding-right: 8px;margin-bottom: 30px }
+.tableBox > table{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.tableBox > h4{margin-bottom: 15px;}
+.tableBox > table  th,
+.tableBox > table  td{border-bottom: 1px solid #eee;padding: 3px;height: 40px;}
+.tableBox > table  td img{width: 8px;margin-top: 3px}
+
+
+.report >.usedNav >span{width: 50%}
+.sellerIndex .search{width: 25px!important;top:5px;}
+/*商户中心*/
+.sellerPerson .perNews {width: 100%;margin-top: 10%}
+.sellerPerson .perNews div{width: 50%;}
+.sellerPerson .perNews{background: #fff!important;padding-top: 70px;padding-bottom: 10px}
+.sellerPerson .perNews div span:nth-child(2){font-size: 1.6rem}
+.sellerPerson .perNav .name{text-align: center;position: absolute;width: 100%;top: 0;}
+.sellerPerson .perNav .name img{
+    width: 60px;
+    border-radius: 40px;
+    border: 3px solid #eee;
+}
+.sellerPerson .perNews div:nth-child(1){border-right: 1px solid #aaa}
+.sellerPerson > .perlist{margin-top: 35px}
+
+/*商户审核*/
+.examineBox{
+    position: relative;
+    background: #fff;
+    padding: 8px;
+}
+.examineBox > div{margin-left: 50px;padding-bottom: 20px }
+.examineBox > p{margin-top: -10px;margin-left: 20px}
+.examineBox > .liu{
+    position: absolute;
+    left: -20px;
+    top: 10px;
+    width: 3px;
+    background: #65a7fd;
+    height: 85px;
+}
+.examineBox > .liu >span {
+    position: absolute;
+    display: block;
+    left: -5px;
+    width: 12px;
+    height: 12px;
+    background: #65a7fd;
+    border-radius: 6px;
+}
+.examineBox > .liu >span:nth-child(1){top: 0}
+.examineBox > .liu >span:nth-child(2){top: 43px}
+.examineBox > .liu >span:nth-child(3){top: 85px}
+/*bannerr、注册协议*/
+.protocol{padding: 15px}
+
+/*优品商户*/
+.seller >.commodity{background: #f7f7f7!important;}
+.seller >.commodity > .commodityBox{
+    margin-top: 15px;
+    background: #fff;
+}
+/***商户详情或商品详情处理图片不自适应的问题***/
+.desc img{width: 100%;}
+
+
+.sellerContent{border-bottom: 1px dashed  #eee!important;}
+.sellerList .status{top:8px!important;}
+
+/*商品列表*/
+.priceList .commodity{
+    margin-top:100px;
+}
+.priceList .priceNav{
+    position: fixed;
+    background: #fff;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 23;
+}
+.priceList  .priceNav .topbox {
+    z-index: 25;
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    box-shadow: 0 0 2px 2px #eee;
+}
+.priceList  .priceNav input{
+    border-radius: 20px;
+    background: #f6f6f6;
+    border: none;
+    width: 90%;
+   display: flex;
+    margin: 15px auto;
+    padding-left: 35px;
+    box-shadow: none;
+    height: 35px;
+    position: relative;
+    outline: none;
+
+}
+.priceList  .priceNav form .searchImg{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background: url("../images/sou.png") no-repeat;
+    background-size: 100%;
+    left:6.5%;
+    top: 25px;
+}
+.priceList  .priceNav form img{
+    position: absolute;
+    left: 7%;
+    top: 25px;
+    width: 15px;
+}
+
+.priceList  .priceNav form span{
+    position: absolute;
+    width: 50px;
+    right: 4.5%;
+    text-align: center;
+    border-radius: 0 20px 20px 0;
+    top: 16px;
+    line-height: 35px;
+    height: 34px;
+    color: #bebebe;
+    font-size: 1.6rem;
+    background: #f6f6f6;
+
+}
+.priceList  .priceNav form span:before{
+    content: '';
+    width: 1px;
+    height: 16px;
+    position: absolute;
+    background: #e6e6e6;
+    left: 0;
+    top: 10px;
+}
+
+.priceList .priceNav .textBox{margin-left: 5%;margin-top: 8px;}
+.priceList .priceNav .textBox span{
+    background: #f6f6f6;
+    padding: 5px 10px;
+    border-radius: 20px;
+    width: 90px;
+    display: inline-block;
+    white-space: nowrap!important;
+    text-overflow: ellipsis!important;
+    overflow: hidden!important;
+    text-align: center;
+    position: relative;
+}
+
+.priceList .priceNav div span .riJt{
+    width: 12px;margin-left: 5px;
+    transform: rotate(-90deg);
+}
+
+.priceList .priceDow{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: rgba(0,0,0,.4);
+    width: 100%;
+    z-index: 30;
+    border-radius: 10px;
+}
+.listBox{
+    position: fixed;
+    top: 0;
+    height: 100%;
+    right: -100%;
+    background: #f6f6f6;
+    width: 80%;
+    overflow: hidden;
+    z-index: 35;
+}
+.listBox h4{
+    color: #f77b43;
+    text-align: center;
+}
+.listBox ul{
+    padding: 0;
+    background: #f6f6f6;
+    margin:  2px auto;
+    overflow-y: scroll;
+}
+.listBox ul li{
+    list-style: none;
+    width: 50%;
+    float: left;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.listBox ul  .active{
+    color: #f77b43;font-weight: 700;
+}
+.listBox ul  .active img{width: 15px;margin-right: 8px}
+.listBox .priceBtnBox{width: 100%;float: left;}
+.listBox .priceBtnBox span{
+    margin-top: 10px;
+    float:left;width: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.6rem;
+}
+.listBox .priceBtnBox span:nth-child(1){background: #fff;}
+.listBox .priceBtnBox span:nth-child(2){background: #f67e41;color: #fff;}
+.textBox .active{color:#f77b43!important;}
+.leiSpan:before{
+    content: '';
+    background: url('../images/priceDow.png') no-repeat ;
+    background-size: 70%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -10px;
+    transform: rotate(-90deg);
+    top: 3px;
+}
+.commodityBox  .abox .rigImg{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    height: 20px;
+    width: 56px;
+    z-index: 20;
+}
+/*优品商家*/
+.sellerBox4{
+    background: #f6f6f6;
+    margin-top: 95px;width: 100%;display: flex;
+    flex-wrap: wrap;}
+.sellerBox4 .selList{
+    background: #fff;
+    width: 100%;
+    padding: 10px;
+    color: #333;
+    margin-top: 10px;
+}
+.sellerBox4 .selList .imgBan{width: 100%!important;}
+.sellerBox4 .selList .loadImg{width: 15px;margin-right: 5px;margin-top: -5px;}
+.sellerBox4 .selList h4{
+    white-space: nowrap!important;
+    text-overflow: ellipsis!important;
+    overflow: hidden!important;
+}
+.sellerBox4 .selList h6{
+    color: #c79686;
+    font-size: 1.4rem;
+}
+.sellerBox4 .selList .priceBox{padding-bottom: 8px}
+.sellerBox4 .selList .priceBox span{
+    color: #fff;
+    background: #e2261f;
+    padding: 4px 6px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}

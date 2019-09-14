@@ -1,0 +1,189 @@
+/***商家列表样式***/
+ul, li, ol {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.text-ellipsis {
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.search-container {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 10px 0px;
+    background: #fff;
+}
+
+#search {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    margin: 0px auto;
+    padding: 0px 10px;
+    background: #f6f6f6;
+    border-radius: 20px;
+}
+
+.search-icon {
+    display: inline-block;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 18px;
+    flex: 0 0 18px;
+    margin-top: 7px;
+    width: 18px;
+    height: 18px;
+    background: url("../images/ss.png") no-repeat;
+    background-size: cover;
+}
+
+.search-input {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border: none;
+    height: 30px;
+    background: #f6f6f6;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    padding: 2px 0px;
+}
+
+.search-btn {
+    display: inline-block;
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 44px;
+    flex: 0 0 44px;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    color: #c1c1c1;
+}
+
+.search-btn::after {
+    position: absolute;
+    left: 2px;
+    top: 10px;
+    content: "";
+    width: 1px;
+    padding: 6px 0px;
+    background: #c1c1c1;
+
+}
+
+.search-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 10px;
+}
+
+.search-item li {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin: 0px 10px;
+    border-radius: 16px;
+    background: #f6f6f6;
+    padding: 4px 10px;
+    font-size: 14px;
+    color: #535353;
+    text-align: center;
+}
+
+#c-merchant-container {
+    position: fixed;
+    top: 52px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: auto;
+}
+
+#c-merchant-list {
+    list-style: none;
+}
+
+.c-list-item {
+    padding: 10px;
+    background: #fff;
+    margin-top: 10px;
+}
+
+.c-list-item a {
+    display: block;
+    color: rgba(51, 51, 51, 1);
+}
+
+.c-list-item .c-banner {
+    width: 100%;
+}
+
+.c-list-item .c-title {
+    height: 18px;
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.c-list-item .c-sale {
+    font-weight: 500;
+    color: #f87b44;
+    font-size: 14px;
+}
+
+.c-list-item .c-tag {
+    margin-bottom: 10px;
+}
+
+.c-list-item .c-tag .c-tag-item {
+    font-size: 12px;
+    background: #e2261f;
+    color: #fff;
+    padding: 4px 6px;
+    border-radius: 4px;
+}
+
+.icon-address {
+    width: 16px;
+    height: 16px;
+    background: url("../images/address.png") no-repeat;
+    background-size: cover;
+}
+
+.c-list-item .c-address {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 12px;
+}
+
+.c-list-item .c-address .icon-address {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 16px;
+    flex: 0 0 16px;
+    margin-right: 2px;
+}
+
+.c-list-item .c-address .c-content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.c-list-item .c-address .c-distance {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 70px;
+    flex: 0 0 70px;
+}
